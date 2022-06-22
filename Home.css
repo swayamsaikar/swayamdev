@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: #151d21;
+  background-image: url("bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.navigationLinksList {
+  padding-right: 30px;
+}
+
+.menuList {
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.menuList:hover {
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #ff7a7a;
+  font-weight: bold;
+}
+
+.logo {
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.logoAnchor {
+  text-decoration: none;
+}
+
+.ProfessionText {
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 35px;
+  padding: 20px;
+}
+
+.LearnMoreBtn {
+  text-decoration: none;
+  background-color: #ff7a7a;
+  color: #000;
+  padding: 15px;
+  font-size: 20px;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.LearnMoreBtn:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  padding: 15px;
+  font-size: 20px;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.MiddleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 23vh;
+}
+
+.paragraphSection {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+
+  margin-top: 30%;
+  margin-bottom: 15%;
+  overflow: hidden;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.paragraph_header {
+  padding: 10px;
+  font-family: "Potta One", cursive;
+}
+
+.Home {
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #ff7a7a;
+  font-weight: bold;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #303030;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Potta One", cursive;
+  opacity: 0.5;
+}

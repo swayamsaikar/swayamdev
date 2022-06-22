@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: #151d21;
+  background-image: url("../bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.navigationLinksList {
+  padding-right: 30px;
+}
+
+.menuList {
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.menuList:hover {
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #ff7a7a;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logo {
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.logoAnchor {
+  text-decoration: none;
+}
+
+.ProjectsPage {
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #ff7a7a;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  margin-top: 50px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+
+.AppImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+  margin: 70px;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imageCenterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.imageCenterContainer:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+  opacity: 0.5;
+}
+
+.onImageHover:hover {
+  opacity: 0.5;
+}

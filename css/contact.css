@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #151d21;
+  background-image: url("../bg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.logoAnchor {
+  text-decoration: none;
+}
+
+.logo {
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.menuList {
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.Contacts {
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: #ff7a7a;
+  font-weight: bold;
+}
+
+.contactContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.contactHeading {
+  font-family: "Roboto", sans-serif;
+  font-size: 62px;
+  margin-top: 15vh;
+  text-align: center;
+  color: #fff;
+}
+
+.contactParagraph {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin: 50px;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+}
+
+.contactIcons figure img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.contactIcons figure img:hover {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin: 20px;
+  opacity: 0.5;
+}
+
+.contactIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
